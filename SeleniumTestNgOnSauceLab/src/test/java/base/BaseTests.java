@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -67,7 +68,12 @@ public class BaseTests {
 
 	@BeforeMethod
 	public void setUp(ITestResult iTestResult) throws MalformedURLException {
+		MutableCapabilities mutableCapabilities = new MutableCapabilities();
+		mutableCapabilities.setCapability("seleniumVersion", "3.6.0");
+		mutableCapabilities.setCapability("username", "abdessalem");
+		mutableCapabilities.setCapability("tage", "google search");
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
+		caps.setCapability("sauce:options", mutableCapabilities);
 		caps.setCapability("platform", "Windows 7");
 		caps.setCapability("version", "latest");
 		caps.setCapability("extendedDebugging", "true");
