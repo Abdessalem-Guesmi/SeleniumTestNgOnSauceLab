@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="145350" started-at="2021-02-04T21:20:27Z" finished-at="2021-02-04T21:22:53Z">
+  <suite name="Suite" duration-ms="376253" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:15:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="145350" started-at="2021-02-04T21:20:27Z" finished-at="2021-02-04T21:22:53Z">
+    <test name="Test" duration-ms="376253" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:15:29Z">
       <class name="test.Test1">
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="15484" started-at="2021-02-04T21:20:28Z" finished-at="2021-02-04T21:20:43Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="13109" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:09:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@5702b3b1]" name="test1" duration-ms="1920" started-at="2021-02-04T21:20:43Z" finished-at="2021-02-04T21:20:45Z">
+        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@5702b3b1]" name="test1" duration-ms="1096" started-at="2021-02-04T22:09:26Z" finished-at="2021-02-04T22:09:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[the title contains not Test0 expected [true] but found [false]]]>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="5573" started-at="2021-02-04T21:20:45Z" finished-at="2021-02-04T21:20:50Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="6623" started-at="2021-02-04T22:09:27Z" finished-at="2021-02-04T22:09:34Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="12118" started-at="2021-02-04T21:20:50Z" finished-at="2021-02-04T21:21:03Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="7237" started-at="2021-02-04T22:09:34Z" finished-at="2021-02-04T22:09:41Z">
           <params>
             <param index="0">
               <value>
@@ -82,11 +82,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@5702b3b1]" name="test2" duration-ms="5308" started-at="2021-02-04T21:21:03Z" finished-at="2021-02-04T21:21:08Z">
+        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@5702b3b1]" name="test2" duration-ms="3364" started-at="2021-02-04T22:09:41Z" finished-at="2021-02-04T22:09:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="2275" started-at="2021-02-04T21:21:08Z" finished-at="2021-02-04T21:21:10Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="6656" started-at="2021-02-04T22:09:44Z" finished-at="2021-02-04T22:09:51Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="86684" started-at="2021-02-04T21:21:10Z" finished-at="2021-02-04T21:22:37Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="315226" started-at="2021-02-04T22:09:51Z" finished-at="2021-02-04T22:15:06Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@5702b3b1]" name="test3" duration-ms="2151" started-at="2021-02-04T21:22:37Z" finished-at="2021-02-04T21:22:39Z">
+        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@5702b3b1]" name="test3" duration-ms="3652" started-at="2021-02-04T22:15:06Z" finished-at="2021-02-04T22:15:10Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[test-case skipped]]>
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="2340" started-at="2021-02-04T21:22:39Z" finished-at="2021-02-04T21:22:41Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="5961" started-at="2021-02-04T22:15:10Z" finished-at="2021-02-04T22:15:16Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="5844" started-at="2021-02-04T21:22:41Z" finished-at="2021-02-04T21:22:47Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="8870" started-at="2021-02-04T22:15:16Z" finished-at="2021-02-04T22:15:24Z">
           <params>
             <param index="0">
               <value>
@@ -169,11 +169,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@5702b3b1]" name="test4" duration-ms="2732" started-at="2021-02-04T21:22:47Z" finished-at="2021-02-04T21:22:50Z">
+        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@5702b3b1]" name="test4" duration-ms="3930" started-at="2021-02-04T22:15:24Z" finished-at="2021-02-04T22:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="2297" started-at="2021-02-04T21:22:50Z" finished-at="2021-02-04T21:22:52Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="290" started-at="2021-02-04T22:15:28Z" finished-at="2021-02-04T22:15:29Z">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@5702b3b1]" name="tearDown" is-config="true" duration-ms="577" started-at="2021-02-04T21:22:52Z" finished-at="2021-02-04T21:22:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@5702b3b1]" name="tearDown" is-config="true" duration-ms="198" started-at="2021-02-04T22:15:29Z" finished-at="2021-02-04T22:15:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

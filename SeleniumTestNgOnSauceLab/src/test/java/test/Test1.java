@@ -5,45 +5,44 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import base.BaseTests;
-import pages.GooglePage;
 import pages.HomePage;
 
 public class Test1 extends BaseTests {
+	public static HomePage homePage;
+	private static String title;
 
 	@Test(priority = 1)
 	public void test1() {
-		GooglePage googlePage = new GooglePage(driver);
-
-		HomePage homePage = googlePage.clickSearchBtn();
-		String title = homePage.getTitle();
+		title = sendKeyWord("Test1");
 		Assert.assertTrue(title.contains("Test0"), "the title contains not Test0");
 	}
 
 	@Test(priority = 2)
 	public void test2() {
-		googlePage.sendKeyWord("Test2");
-
-		HomePage homePage = googlePage.clickSearchBtn();
-		String title = homePage.getTitle();
+		title = sendKeyWord("Test2");
 		Assert.assertTrue(title.contains("Test2"), "the title contains not Test4");
 
 	}
 
 	@Test(priority = 3)
 	public void test3() {
-		googlePage.sendKeyWord("Test3");
-		HomePage homePage = googlePage.clickSearchBtn();
+		sendKeyWord("Test3");
 		throw new SkipException("test-case skipped");
 
 	}
 
 	@Test(priority = 4)
 	public void test4() {
-		googlePage.sendKeyWord("Test4");
-		HomePage homePage = googlePage.clickSearchBtn();
-		String title = homePage.getTitle();
-		System.out.println("the title is :" + title);
+		title = sendKeyWord("Test4");
+
 		Assert.assertTrue(title.contains("Test4"), "the title contains not Test4");
+
+	}
+
+	public static String sendKeyWord(String keyword) {
+		googlePage.sendKeyWord(keyword);
+		homePage = googlePage.clickSearchBtn();
+		return homePage.getTitle();
 
 	}
 }
