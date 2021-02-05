@@ -2,23 +2,23 @@
 <testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="376253" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:15:29Z">
+  <suite name="Suite" duration-ms="51829" started-at="2021-02-05T20:44:05Z" finished-at="2021-02-05T20:44:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="376253" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:15:29Z">
+    <test name="Test" duration-ms="51829" started-at="2021-02-05T20:44:05Z" finished-at="2021-02-05T20:44:56Z">
       <class name="test.Test1">
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="13109" started-at="2021-02-04T22:09:13Z" finished-at="2021-02-04T22:09:26Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="setUp" is-config="true" duration-ms="11879" started-at="2021-02-05T20:44:05Z" finished-at="2021-02-05T20:44:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=Test1.test1()[pri:1, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=Test1.test1()[pri:1, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@5702b3b1]" name="test1" duration-ms="1096" started-at="2021-02-04T22:09:26Z" finished-at="2021-02-04T22:09:27Z">
+        <test-method status="FAIL" signature="test1()[pri:1, instance:test.Test1@25bbe1b6]" name="test1" duration-ms="2244" started-at="2021-02-05T20:44:17Z" finished-at="2021-02-05T20:44:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[the title contains not Test0 expected [true] but found [false]]]>
@@ -28,7 +28,7 @@
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
-at test.Test1.test1(Test1.java:19)
+at test.Test1.test1(Test1.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -60,62 +60,62 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="6623" started-at="2021-02-04T22:09:27Z" finished-at="2021-02-04T22:09:34Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="recordFailure" is-config="true" duration-ms="1012" started-at="2021-02-05T20:44:19Z" finished-at="2021-02-05T20:44:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=Test1.test1()[pri:1, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=Test1.test1()[pri:1, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="7237" started-at="2021-02-04T22:09:34Z" finished-at="2021-02-04T22:09:41Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="setUp" is-config="true" duration-ms="9685" started-at="2021-02-05T20:44:20Z" finished-at="2021-02-05T20:44:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test1.test2()[pri:2, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test1.test2()[pri:2, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@5702b3b1]" name="test2" duration-ms="3364" started-at="2021-02-04T22:09:41Z" finished-at="2021-02-04T22:09:44Z">
+        <test-method status="PASS" signature="test2()[pri:2, instance:test.Test1@25bbe1b6]" name="test2" duration-ms="2137" started-at="2021-02-05T20:44:29Z" finished-at="2021-02-05T20:44:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="6656" started-at="2021-02-04T22:09:44Z" finished-at="2021-02-04T22:09:51Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="recordFailure" is-config="true" duration-ms="134" started-at="2021-02-05T20:44:32Z" finished-at="2021-02-05T20:44:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test1.test2()[pri:2, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test1.test2()[pri:2, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="315226" started-at="2021-02-04T22:09:51Z" finished-at="2021-02-04T22:15:06Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="setUp" is-config="true" duration-ms="11575" started-at="2021-02-05T20:44:32Z" finished-at="2021-02-05T20:44:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3 status=SKIP method=Test1.test3()[pri:3, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test3 status=SKIP method=Test1.test3()[pri:3, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@5702b3b1]" name="test3" duration-ms="3652" started-at="2021-02-04T22:15:06Z" finished-at="2021-02-04T22:15:10Z">
+        <test-method status="SKIP" signature="test3()[pri:3, instance:test.Test1@25bbe1b6]" name="test3" duration-ms="2033" started-at="2021-02-05T20:44:43Z" finished-at="2021-02-05T20:44:45Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[test-case skipped]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: test-case skipped
-at test.Test1.test3(Test1.java:36)
+at test.Test1.test3(Test1.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -147,47 +147,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="5961" started-at="2021-02-04T22:15:10Z" finished-at="2021-02-04T22:15:16Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="recordFailure" is-config="true" duration-ms="224" started-at="2021-02-05T20:44:45Z" finished-at="2021-02-05T20:44:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3 status=SKIP method=Test1.test3()[pri:3, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test3 status=SKIP method=Test1.test3()[pri:3, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="setUp" is-config="true" duration-ms="8870" started-at="2021-02-04T22:15:16Z" finished-at="2021-02-04T22:15:24Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="setUp" is-config="true" duration-ms="8747" started-at="2021-02-05T20:44:46Z" finished-at="2021-02-05T20:44:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test4 status=SUCCESS method=Test1.test4()[pri:4, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=Test1.test4()[pri:4, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@5702b3b1]" name="test4" duration-ms="3930" started-at="2021-02-04T22:15:24Z" finished-at="2021-02-04T22:15:28Z">
+        <test-method status="PASS" signature="test4()[pri:4, instance:test.Test1@25bbe1b6]" name="test4" duration-ms="1977" started-at="2021-02-05T20:44:54Z" finished-at="2021-02-05T20:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@5702b3b1]" name="recordFailure" is-config="true" duration-ms="290" started-at="2021-02-04T22:15:28Z" finished-at="2021-02-04T22:15:29Z">
+        <test-method status="PASS" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:test.Test1@25bbe1b6]" name="recordFailure" is-config="true" duration-ms="133" started-at="2021-02-05T20:44:56Z" finished-at="2021-02-05T20:44:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test4 status=SUCCESS method=Test1.test4()[pri:4, instance:test.Test1@5702b3b1] output={null}]]]>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=Test1.test4()[pri:4, instance:test.Test1@25bbe1b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Test1@5702b3b1]" name="tearDown" is-config="true" duration-ms="198" started-at="2021-02-04T22:15:29Z" finished-at="2021-02-04T22:15:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- test.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
